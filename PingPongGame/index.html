@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ping Pong Game</title>
+    <style>
+        body{
+            background: dimgray;;
+        }
+        #pong{
+            border: 2px solid #FFF;
+            position: absolute;
+            margin: auto;
+            top: 0px;
+            right: 0px;
+            left: 0px;
+            bottom: 0px;
+        }
+        #title{
+            text-align: center;
+            font-size: 42px;
+            text-transform: capitalize;
+            margin: auto;
+            color: #fff;
+            padding-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">welcome to ping pong game</h1>
+    <canvas id="pong" width="600" height="400"></canvas>
+    <script src="pong.js"></script>
+</body>
+</html>
